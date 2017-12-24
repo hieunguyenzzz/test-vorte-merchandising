@@ -1,0 +1,23 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <vortex_merchandising_collections>
+            <recentlyviewed>
+                <lookup_days>200</lookup_days>
+                <limit>2</limit>
+            </recentlyviewed>
+            <featured>
+                <featured_attribute>gender</featured_attribute>
+            </featured>
+            <category>
+                <limit>6</limit>
+                <id>11</id>
+            </category>
+            <bestsellers>
+                <lookup_days>200</lookup_days>
+            </bestsellers>
+            <mostviewed>
+                <lookup_days>200</lookup_days>
+            </mostviewed>
+        </vortex_merchandising_collections>
+    </default>
+</config>
